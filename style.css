@@ -8,9 +8,10 @@
 body {
   font-family: 'Inter', sans-serif;
   color: white;
-  background-color: black;
+  background-color: black; 
   text-decoration:  rgb(85, 85, 85);;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -29,24 +30,29 @@ h1{
 
 
 
+
 /* DESKTOP NAV */
 
 nav,
 .nav-links {
   display: flex;
+
 }
 
 nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background-color: rgba(33, 33, 33, 0.542);
+  
+  
 }
 
 .nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.3rem;
-  color: whi;
+  color: white;
  
 
 }
@@ -59,8 +65,9 @@ a {
 
 
 
+
 .logo {
-  font-size: 3rem;
+  font-size: 3.1rem;
   color: rgb(230, 83, 60);;
 }
  .link-border{
@@ -82,7 +89,7 @@ a {
 .shape{
   font-family: 'Miama', sans-serif;
   font-size: 4rem;
-                                                
+                                          
 }
 
 
@@ -127,7 +134,7 @@ a {
   flex-direction: row;
   gap: 10rem;
   margin-bottom: 5rem;
-
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 
 }
 
@@ -628,7 +635,7 @@ a {
   }
   .footer-text h1{
     font-size: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3.1rem;
     color: rgb(230, 83, 60);;
   }
   
