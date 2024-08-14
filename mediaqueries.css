@@ -146,8 +146,8 @@
       font-size: 15px;
      }
      .dot{
-      width: 20px;
-    height: 20px;
+      width: 25px;
+    height: 25px;
      }
 
      .form1{
@@ -166,6 +166,13 @@
      .foodpic{
       width: 340px;
      }
+     .triangle-right {
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-left: 8px solid #fafafa;
+      border-bottom: 5px solid transparent;
+    }
   
       
   
