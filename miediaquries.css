@@ -1,0 +1,112 @@
+@media screen and (max-width: 600px) {
+    body{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    h1{
+      font-size: 2rem;
+  
+    }
+    p{
+      font-size: 1rem;
+    }
+    .btn-container{
+      margin-bottom: 2rem;
+    }
+    .title{
+      font-size: 2rem;
+    }
+  
+    .about-containers{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  
+    .join{
+      flex-direction: column;
+    }
+     #join-section{
+      justify-content: space-between;
+     
+     }
+  
+     .bmi-chart{
+      flex-direction: column;
+      height: fit-content;
+      align-items: center;
+     }
+     .bmi-calcu{
+      grid-template-columns: repeat(2,180px);
+     }
+     .form2{
+      width: fit-content;
+     }
+     .food-guidline{
+      flex-direction: column;
+  
+     }
+     .teambox{
+      justify-content: center;
+  
+      align-items: center;
+     }
+     .teampic{
+      grid-template-columns: repeat(1,1fr);
+      width: fit-content;
+  
+     }
+  
+     .footer-container{
+      display: inline;
+     }
+     .footer-details {
+      flex-direction: column;
+      text-align: left;
+     }
+  
+     #profile{
+      flex-direction: column;
+      margin-bottom: 15rem;
+      flex-wrap: wrap;
+     }
+     .section__pic-container{
+      height: fit-content;
+      margin-bottom: 3rem;
+     }
+     .gray-box{
+      height: 60px;  
+    width: 160px;
+    left: -40px;
+    bottom: 80px;
+    
+     }
+     .gray-box h1{
+      font-size: 20px;
+     }
+     .gray-box p{
+      font-size: 15px;
+     }
+     .green-box{
+      left: 170px;
+    top: 60px;
+    width: 160px;
+    height: 60px;
+  
+     }
+     .green-box h1{
+      font-size: 20px;
+  
+     }
+     .green-box p{
+      font-size: 15px;
+     }
+     .dot{
+      width: 20px;
+    height: 20px;
+     }
+  
+      
+  
+  
+  }
