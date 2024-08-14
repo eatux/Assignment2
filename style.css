@@ -372,3 +372,174 @@ a {
     border: rgb(53, 53, 53) 0.1rem solid;
     background: rgb(230, 83, 60);;
   }
+
+  /*BMI section*/
+
+#BMI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  
+  }
+  .bmitext{
+    margin-bottom: 3rem;
+  }
+  .bmitext h1{
+    font-size: 3rem;
+  }
+  .bmitext p{
+    font-size: 1rem;
+  }
+  .bmi-chart{
+    width: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(34, 34, 34);
+    gap: 10rem;
+    padding: 30px;
+  
+  }
+  
+  .box1{
+  
+  
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-start;
+    align-items: flex-start; 
+  }
+  .box1 h1{
+    margin-bottom: 2rem;
+  }
+  .item{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .bmi-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+    
+  }
+   .bmi-item{
+    width: 350px;
+    height: 230px;
+    text-align: center;
+   }
+  
+   .bmi-calcu{
+    display: grid;
+    grid-template-columns: repeat(2,320px);
+    margin-bottom: 1rem; 
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+    
+   }
+  
+   #form{
+  
+    height: 35px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    
+    
+   }
+  
+   .box2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+  
+   }
+  
+  
+   .bmi-calcu-text{
+    margin-bottom: 1rem;
+   }
+   .calcu-btn{
+    width: 260px;
+    border-radius: 39px;
+    font-size: 1.5rem;
+    background-color: rgba(230, 83, 60);
+    height: 45px;
+    outline: none;
+    border: none;
+    color: white;
+  
+  
+   }
+   
+   
+   
+  
+   /* food SECTION */
+  
+  #food-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .food-guidline{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 45px;
+  }
+  
+  .foodpic{
+    width: 366px;
+    height: 300px;
+    border-radius: 18px;
+  }
+  
+  
+  .foodsection__textbox {
+    align-self: flex-start;
+    text-align: left;
+  }
+  .foodsection__textbox p{
+    margin-bottom: 1rem;
+  }
+  
+  .foodsection__text{
+    font-size: 0.5rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  
+  }
+  
+  .foodsection-title {
+    font-size: 2rem;
+    text-align: left;
+    gap: 2rem;
+  }
+  
+  
+  .foodsection-btn {
+    font-weight: 600;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .foodsection-btn{
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background: rgb(230, 83, 60);;
+  }
